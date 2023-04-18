@@ -52,6 +52,16 @@ class Catalogo
         }
     }
 }
+// data 18/04 
+/*class Shop
+{
+    use DiscountTrait;
+    // ...
+}*/
+
+
+
+//fine cose data 18/04
 
 $catalogo = new Catalogo();
 
@@ -75,6 +85,9 @@ echo "<h2>Prodotti:</h2>";
 echo "<div class='catalogo'>";
 $catalogo->stampaCatalogo();
 echo "</div>";
+
+
+
 ?>
 
 
